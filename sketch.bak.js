@@ -248,8 +248,8 @@ class Bird {
     }
     
     // comprova si arriba al limit superior de la  pantalla
-    if(this.spr.position.y <= windowHeight-40*scr) {
-      this.spr.position.y = windowHeight-40*scr;
+    if(this.spr.position.y <= 40*scr) {
+      this.spr.position.y = 40*scr;
       this.spr.addSpeed(0.3*scr, 90);
     }
 
