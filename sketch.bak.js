@@ -29,13 +29,13 @@ var bgcG;
 var bgcB;
 
 /*function preload(){
-  font = loadFont('/assets/font.TTF');
+  font = loadFont('/flapibirt/assets/font.TTF');
 }*/
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  bgimg = loadImage('/assets/bgtr.png'); // imatge de fons
-  timg =loadImage('/assets/tube.png'); // imatge tuberies
+  bgimg = loadImage('/flapibirt/assets/bgtr.png'); // imatge de fons
+  timg =loadImage('/flapibirt/assets/tube.png'); // imatge tuberies
 
  
   bg = new BG(); // creem el fons
