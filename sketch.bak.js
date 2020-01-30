@@ -233,7 +233,7 @@ class Bird {
     this.y = yi;
     this.m = m;
     this.spr = createSprite(this.x, this.y, this.m, this.m);
-    this.spr.addAnimation('fly', '/assets/fb0.png', '/assets/fb1.png', '/assets/fb2.png');
+    this.spr.addAnimation('fly', '/flapibirt/assets/fb0.png', '/flapibirt/assets/fb1.png', '/flapibirt/assets/fb2.png');
     this.spr.scale = 1.3*scr;
   }
 
