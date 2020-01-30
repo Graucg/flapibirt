@@ -29,7 +29,7 @@ var bgcG;
 var bgcB;
 
 function preload(){
-  font = loadFont('/assets/font.ttf');
+  font = loadFont('/assets/font.TTF');
 }
 
 function setup() {
