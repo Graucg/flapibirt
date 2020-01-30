@@ -282,6 +282,8 @@ function keyPressed(){
     // si esta a la pantalla inicial comença el joc
     if(start){
       start = 0;
+      b.spr.remove();
+      b = new Bird(windowWidth/4, windowHeight/2, 50); // creem l'ocell
 
     // si esta a la pantalla de game over s'espera 0.1 segons per evitar
     // poder clicar massa rapid i despres retorna al joc
