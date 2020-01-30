@@ -29,13 +29,13 @@ var bgcG;
 var bgcB;
 
 function preload(){
-  font = loadFont('assets/font.ttf');
+  font = loadFont('/assets/font.ttf');
 }
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  bgimg = loadImage('assets/bgtr.png'); // imatge de fons
-  timg =loadImage('assets/tube.png'); // imatge tuberies
+  bgimg = loadImage('/assets/bgtr.png'); // imatge de fons
+  timg =loadImage('/assets/tube.png'); // imatge tuberies
 
  
   bg = new BG(); // creem el fons
@@ -233,7 +233,7 @@ class Bird {
     this.y = yi;
     this.m = m;
     this.spr = createSprite(this.x, this.y, this.m, this.m);
-    this.spr.addAnimation('fly', 'assets/fb0.png', 'assets/fb1.png', 'assets/fb2.png');
+    this.spr.addAnimation('fly', '/assets/fb0.png', '/assets/fb1.png', '/assets/fb2.png');
     this.spr.scale = 1.3*scr;
   }
 
