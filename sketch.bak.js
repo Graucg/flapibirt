@@ -28,9 +28,9 @@ var bgcR;
 var bgcG;
 var bgcB;
 
-function preload(){
+/*function preload(){
   font = loadFont('/assets/font.TTF');
-}
+}*/
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -64,7 +64,7 @@ function setup() {
   scr = windowHeight/939;
   scry = windowWidth/1880;
 
-  textFont(font); // carreguem la font
+  //textFont(font); // carreguem la font
 }
 
 function draw() {
